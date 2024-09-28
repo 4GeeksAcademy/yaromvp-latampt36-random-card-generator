@@ -1,1 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.fonfam {
+  font-family: "PT Serif", serif;
+}
