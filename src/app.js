@@ -11,8 +11,6 @@ window.onload = function() {
   const bodyPage = document.querySelector("#bodyPage");
   bodyPage.classList.add(
     "bg-success",
-    "mt-1",
-    "mb-5",
     "d-flex",
     "flex-column",
     "justify-content-center",
@@ -30,7 +28,7 @@ window.onload = function() {
     "flex-column",
     "justify-content-between",
     "my-3",
-    "fonfam"
+    "fontFam"
   );
 
   const topLeftSymbol = document.createElement("div");
@@ -42,11 +40,11 @@ window.onload = function() {
   const bottomRightSymbol = document.createElement("div");
   bottomRightSymbol.classList.add(
     "display-3",
-    "text-end",
     "m-0",
-    "pe-3",
+    "ps-3",
     "pb-2",
-    "text-dark"
+    "text-dark",
+    "rotateIcon"
   );
 
   //Función encargada de generar la carta aleatoria

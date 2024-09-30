@@ -1,5 +1,9 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-.fonfam {
+.fontFam {
   font-family: "PT Serif", serif;
+}
+
+.rotateIcon {
+  transform: rotate(180deg);
 }
